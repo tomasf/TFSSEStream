@@ -1,4 +1,4 @@
-TFSSEStream provides a simple way to handle Server-Sent Events streams.
+TFSSEStream provides a simple way to handle Server-Sent Events streams in WebAppKit.
 
 Create a `TFSSEStreamHandler`, set its `connectionHandler` property and add it as a request handler in your `WAApplication` subclass. The connection handler block is called whenever a new client connects. You can inspect the stream and its request. Keep a reference to the stream so you can use it later and return `YES`. Return `NO` to reject the connection.
 
